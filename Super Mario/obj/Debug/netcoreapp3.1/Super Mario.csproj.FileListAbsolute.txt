@@ -1,0 +1,632 @@
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.AssemblyReference.cache
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.GeneratedMSBuildEditorConfig.editorconfig
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfoInputs.cache
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfo.cs
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CoreCompileInputs.cache
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.pdb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Font\dogicapixel.ttf
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Mape-01.tmx
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\UnderGround.tsx
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\KoopaTroopa.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Bullet.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Gm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Pm.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coin.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coins.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\UnderGround.xnb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.exe
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.deps.json
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.json
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.dev.json
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.pdb
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Input.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Tweens.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CopyComplete
+E:\mes document\Visual Studio 2022\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.genruntimeconfig.cache
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.AssemblyReference.cache
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.GeneratedMSBuildEditorConfig.editorconfig
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfoInputs.cache
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfo.cs
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CoreCompileInputs.cache
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Font\dogicapixel.ttf
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Bullet.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Crouche gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Fall gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\jump gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 1.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 2.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 3.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 4.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 5.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Fall pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario Idel gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Idel Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Jump pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Run pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Stop Runing pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario walk gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Walk pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Pm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Run Gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Stop Runing gm.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Block anime.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\block_anime_L.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick anime.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick Broken.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignon.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Classic.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coin.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coins.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Dynamic.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Surprise.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\TextureClassic.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\UnderGround.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Classic.tsx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Dynamic.tsx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level--01.tmx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-01.tmx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-1.tmx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Mape-01.tmx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\n.tmx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-01.tmx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-1.tmx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\TextureClassic.tsx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Textures.tsx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\UnderGround.tsx
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.exe
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.deps.json
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.json
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.dev.json
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.pdb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Input.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Tweens.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CopyComplete
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.dll
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.pdb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.genruntimeconfig.cache
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 1.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 2.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 3.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 4.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 5.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fall.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fier.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Idel.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Jump.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Run.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Stop Runing.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\white walck.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Flawer.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Font\dogicapixel.ttf
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Block anime.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\block_anime_L.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Classic.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Dynamic.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\UnderGround.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Classic.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Dynamic.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level--01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-1.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Mape-01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\n.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-1.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\TextureClassic.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Textures.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\UnderGround.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Bullet.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Crouche gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Fall gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\jump gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 1.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 2.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 3.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 4.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 5.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Fall pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario Idel gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Idel Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Jump pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Run pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Stop Runing pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario walk gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Walk pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Run Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Stop Runing gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 1.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 2.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 3.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 4.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 5.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fall.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fier.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Idel.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Jump.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Run.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Stop Runing.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\white walck.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick anime.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick Broken.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignon.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coin.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coins.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Flawer.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Surprise.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\TextureClassic.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.exe
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.deps.json
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.json
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.dev.json
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.pdb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Input.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Tweens.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.AssemblyReference.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfoInputs.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfo.cs
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CoreCompileInputs.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CopyComplete
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.pdb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.genruntimeconfig.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Bypase.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Staind Up.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Walk.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.pdb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Font\dogicapixel.ttf
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Block anime.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\block_anime_L.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Classic.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Dynamic.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\UnderGround.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Classic.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Dynamic.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level--01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-1.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\n.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-1.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\TextureClassic.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Textures.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\UnderGround.tsx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon lous.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\Enemy Champignon Walk.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Bypase.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Staind Up.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Walk.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Bullet.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Crouche gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Fall gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\jump gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 1.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 2.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 3.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 4.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 5.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Fall pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario Idel gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Idel Pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Jump pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Run pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Stop Runing pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario walk gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Walk pm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Run Gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Stop Runing gm.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 1.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 2.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 3.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 4.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 5.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fall.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fier.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Idel.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Jump.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Run.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Stop Runing.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\white walck.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick anime.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick Broken.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignon.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coin.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coins.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Flawer.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Surprise.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\TextureClassic.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Mape-01.tmx
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.exe
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.deps.json
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.json
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.dev.json
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.pdb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Apos.Input.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Apos.Tweens.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.AssemblyReference.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfoInputs.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfo.cs
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CoreCompileInputs.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CopyComplete
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario-1\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.genruntimeconfig.cache
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon lous.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\Enemy Champignon Walk.xnb
+C:\Users\Mourad\Documents\Visual Studio 2022\project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignion 1up.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Font\dogicapixel.ttf
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Block anime.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\block_anime_L.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Classic.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Dynamic.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\UnderGround.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Classic.tsx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Dynamic.tsx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level--01.tmx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-01.tmx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-1.tmx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Mape-01.tmx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\n.tmx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-01.tmx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-1.tmx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\TextureClassic.tsx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Textures.tsx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\UnderGround.tsx
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon lous.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\Enemy Champignon Walk.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Bypase.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Staind Up.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Walk.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Bullet.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Crouche gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Fall gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\jump gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 1.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 2.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 3.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 4.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 5.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Fall pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario Idel gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Idel Pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Jump pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Run pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Stop Runing pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario walk gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Walk pm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Run Gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Stop Runing gm.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 1.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 2.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 3.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 4.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 5.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fall.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fier.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Idel.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Jump.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Run.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Stop Runing.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\white walck.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick anime.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick Broken.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignion 1up.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignon.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coin.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coins.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Flawer.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Surprise.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\TextureClassic.xnb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.exe
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.deps.json
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.json
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.dev.json
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.pdb
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Input.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Tweens.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+J:\Projects\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.AssemblyReference.cache
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.GeneratedMSBuildEditorConfig.editorconfig
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfoInputs.cache
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfo.cs
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CoreCompileInputs.cache
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CopyComplete
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.dll
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.pdb
+J:\Projects\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.genruntimeconfig.cache
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Font\dogicapixel.ttf
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Crouch_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Fall_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Idel_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Jump_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_looking_Up_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Run_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_StopRun_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario_Walk_Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Block anime.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\block_anime_L.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Classic.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Dynamic.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\UnderGround.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Classic.tsx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Dynamic.tsx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level--01.tmx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-01.tmx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Level-1.tmx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Mape-01.tmx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\n.tmx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-01.tmx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Stage-1.tmx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\TextureClassic.tsx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\Textures.tsx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Mapes\UnderGround.tsx
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon lous.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\Enemy Champignon Walk.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Bypase.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Staind Up.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Walk.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Bullet.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Crouche gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Fall gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\jump gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 1.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 2.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 3.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 4.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Crouche pm 5.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Fall pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario Idel gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Idel Pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Jump pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Run pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Stop Runing pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\mario walk gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Mario Walk pm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Run Gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\Stop Runing gm.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 1.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 2.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 3.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 4.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Crouching 5.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fall.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Fier.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Idel.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Jump.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Run.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\White Stop Runing.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Mario\white walck.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick anime.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Brick Broken.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignion 1up.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignon.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coin.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Coins.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Flawer.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Surprise.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\TextureClassic.xnb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.exe
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.deps.json
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.json
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.runtimeconfig.dev.json
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Super Mario.pdb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Input.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Apos.Tweens.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.AssemblyReference.cache
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfoInputs.cache
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.AssemblyInfo.cs
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CoreCompileInputs.cache
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.csproj.CopyComplete
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.dll
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.pdb
+C:\Users\Hichem\Desktop\Super Mario\Super Mario\obj\Debug\netcoreapp3.1\Super Mario.genruntimeconfig.cache
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\enemy champignon lous.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\Enemy Champignon Walk.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Bypase.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Staind Up.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Walk.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignion 1up.xnb

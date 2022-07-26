@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Super_Mario</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Apos.Gui" Version="1.0.8" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MyLibrary\Screen\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Content\Font\dogicapixel.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

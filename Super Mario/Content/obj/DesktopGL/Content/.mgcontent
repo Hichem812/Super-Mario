@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/Enemy Champignon Lous.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/Enemy Champignon Walk.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/KoopaTroopa Bypase.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/KoopaTroopa Staind Up.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/KoopaTroopa Walk.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Bullet.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Crouche gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Fall gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/jump gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 1.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 2.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 3.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 4.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 5.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Fall pm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/mario Idel gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Idel Pm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Jump pm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Run pm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Stop Runing pm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/mario walk gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Walk pm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Run Gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Stop Runing gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Crouching 1.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Crouching 2.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Crouching 3.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Crouching 4.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Crouching 5.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Fall.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Fier.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Idel.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Jump.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Run.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Stop Runing.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/white walck.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Brick anime.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Brick Broken.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Champignion 1up.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Champignon.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Coin.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Coins.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Flawer.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/Surprise.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/TextureClassic.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
