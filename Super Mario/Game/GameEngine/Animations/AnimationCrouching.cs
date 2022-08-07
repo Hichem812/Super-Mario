@@ -10,6 +10,7 @@ namespace Super_Mario
     {
         delegate void CrouchingUpdate(GameTime gameTime);
         #region Fields
+        private bool disposed;
         CrouchingUpdate UpdateC;
         Texture2D[] Frames;
         float MilisocondsParFrams;
@@ -41,6 +42,23 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                //foreach (var item in this.Frames)
+                //    item.Dispose();
+                this.Frames = null;
+            }
+
+            disposed = true;
+            base.Dispose();
+        }
         internal void InitialazeAnimation()
         {
             this.CurentFrameIndex = 0;

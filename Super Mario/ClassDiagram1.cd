@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Super_Mario.Animation" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAZAAAEABAEAAwQAQAAAIEAQAQAAAQAAAAAAgQAFAAE=</HashCode>
+      <FileName>Game\GameEngine\Animations\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.AnimationCrouching" Collapsed="true">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAAAAABAAAAiAAAAAAAEEAAAAAAgCAAIAAAAAEAAE=</HashCode>
+      <FileName>Game\GameEngine\Animations\AnimationCrouching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.AnimationLoss" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAABAgAAoQAQAAAIEAAAAAAAAAAAAAAgAgEAAA=</HashCode>
+      <FileName>Game\GameEngine\Animations\AnimationLoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.AnimationTransformation" Collapsed="true">
+    <Position X="11.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZAAAEAAAgAggAAAAAAIAAAIBAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Game\GameEngine\Animations\AnimationTransformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Block" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiYDAAABACAAAgAQgAACAgAAAABAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>Game\GameEngine\Blocks\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.BlockBrick" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIBAAAAACAEIgEAAAAAQgAAAABAAAAQAAAIAAAACAA=</HashCode>
+      <FileName>Game\GameEngine\Blocks\BlockBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.BlockSupriseFireInvisible" Collapsed="true">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>Game\GameEngine\Blocks\BlockSupriseFireInvisible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.BlockSupriseInvisible" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>Game\GameEngine\Blocks\BlockSupriseInvisible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.BlockSurprise" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA4AEACAACAAAgEAAAwAAgAAgAAAAAAAAAACAAIAAAA=</HashCode>
+      <FileName>Game\GameEngine\Blocks\BlockSurprise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.BlockSurpriseFire" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQA=</HashCode>
+      <FileName>Game\GameEngine\Blocks\BlockSurpriseFire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.BoundingBox" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAACAAAAAAAAAAADBAAABAAAAAAAAgAAIAAoE=</HashCode>
+      <FileName>Game\GameEngine\BoundingBox\BoundingBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Super_Mario.BoundingBoxBlock" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAA=</HashCode>
+      <FileName>Game\GameEngine\BoundingBox\BoundingBoxBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.BoundingBoxBlockInvisible" Collapsed="true">
+    <Position X="10.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAADBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\BoundingBox\BoundingBoxBlockInvisible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Enemy" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYABAAAACAAABAAAAAAAAAEAAJAAQABAAAAAAgCAAA=</HashCode>
+      <FileName>Game\GameEngine\Entity\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.EnemyChampignon" Collapsed="true">
+    <Position X="19.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAACAAQAAAAAAAAgAAAAAAAQAAAAAAAAACAAA=</HashCode>
+      <FileName>Game\GameEngine\Entity\EnemyChampignon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.EnemyKoopaTroopa" Collapsed="true">
+    <Position X="21.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gjIABAAAACAAAAAAAAAAAgAQAAAAAAAAIAAAAAAGgQA=</HashCode>
+      <FileName>Game\GameEngine\Entity\EnemyKoopaTroopa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Entity" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAABACAAEgAAEAQAAAAAAABAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Entity\Entity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Super_Mario.Player" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jCaAAgRCAqAIUomAUAIIRAAXQEIgAxGgAQGACgKDSAY=</HashCode>
+      <FileName>Game\GameEngine\Entity\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Coin" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACAAACAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Items\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Item" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACAABCAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Game\GameEngine\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ItemChampignon" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACAAACAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Items\ItemChampignon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ItemChampignon1Up" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACAAACAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Items\ItemChampignon1Up.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ItemFireFlower" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACAAACAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Items\ItemFireFlower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Bullet" Collapsed="true">
+    <Position X="24" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAABACAAAgACAAAAAoAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Projectile\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Projectile" Collapsed="true">
+    <Position X="24" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Projectile\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.brickBroken" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAAAACAEAoAgAgABAAAAAQAAAgAAAAAEAAgEAAI=</HashCode>
+      <FileName>Game\GameEngine\brickBroken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Colisions" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Colisions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Dynamic" Collapsed="true">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAEAACgAAAAAAAAAAgQAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Dynamic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.DetailsTable" Collapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIhAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Game\Globale\DetailsTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.GameManager" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgFAAAAAAAgAAAAAAAAAAAAgAAAAJAAgAAAAAABI=</HashCode>
+      <FileName>Game\Globale\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.TileMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIFEAAAICAAAgEAAAAAAAAAAAAAAkAAIACAAAAAgAA=</HashCode>
+      <FileName>Game\Globale\TileMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Super_Mario.GameObject" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYBAAEABCAEAgAwAAAAAEAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Graphics\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ObjectBase" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYBAAAAADAAAgAwAAAAgAAAABBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Graphics\ObjectBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Super_Mario.Sprite" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEAABCAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Graphics\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Super_Mario.SpriteInternal" Collapsed="true">
+    <Position X="11.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Graphics\SpriteInternal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ScreenBase" Collapsed="true">
+    <Position X="1.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Screens\ScreenBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ScreenId" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Screens\ScreenBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ScreenGame" Collapsed="true">
+    <Position X="0.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQFAEAAAIAACgEAAAAAAAAAAAAAAAABAAIAAAAAgAI=</HashCode>
+      <FileName>Game\Screens\ScreenGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.ScreenStart" Collapsed="true">
+    <Position X="2.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Screens\ScreenStart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Game1" Collapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAEEAAAgAgQwAAAAAAAAAAAAgAAAgIAAAAAAAAEAw=</HashCode>
+      <FileName>Game\Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.Program" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Game\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Super_Mario.New_Class" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>New Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyLibrary.Camera" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAABAAAAAAAIAAAAEQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyLibrary\Global\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyLibrary.Input" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAkAAAEAABAAAAgAAAIAAAAQAAAAACAAQAAAEAA=</HashCode>
+      <FileName>MyLibrary\Global\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyLibrary.Point_Byte" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAYBA=</HashCode>
+      <FileName>MyLibrary\Global\Point_Byte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyLibrary.Settings" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCgAAAAAIgMkgIAIAIABAACAABAAAAEAABAACCAAACA=</HashCode>
+      <FileName>MyLibrary\Global\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyLibrary.Tools" Collapsed="true">
+    <Position X="33.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAADBAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MyLibrary\Global\Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyLibrary.Screen" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>MyLibrary\Screen\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyLibrary.ScreensManager" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYAAAIAAAAADgBAAAAAAAQAAAAAAAAAAIBAAAAAAAI=</HashCode>
+      <FileName>MyLibrary\Screen\ScreensManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TileMapManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAACAAAgAAIAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\MyAdd\TileMapManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TiledSharp.TmxGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAEEAAgAAAAAAAAAAAAAQAAAAAAADMAAAAAAACAAA=</HashCode>
+      <FileName>TiledSharp\Group.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TiledSharp.TmxImageLayer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAABAAAAAAAAAAAIEQAAAAAABDIAAAAAAACAAA=</HashCode>
+      <FileName>TiledSharp\ImageLayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TiledSharp.TmxLayer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAAAAAAAAAAAAAAAQAAAAAAALIAAAAAAACAAA=</HashCode>
+      <FileName>TiledSharp\Layer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TiledSharp.TmxLayerTile" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAgAAAAABEQACAAAAAAAAAAIAAAAAAAAAAYAA=</HashCode>
+      <FileName>TiledSharp\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxMap" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAkEAAhQAAAgAABEABAGIACAAAAAAMgAAAAQACAAA=</HashCode>
+      <FileName>TiledSharp\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxObjectGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAAAAAAAAAAAAAIAQAAAAAAAHoAAAAgAACAAA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TiledSharp.TmxObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAgIAAAAAAAFQAAAAAAAAIAYAACAACYQA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TiledSharp.TmxObjectPoint" Collapsed="true">
+    <Position X="35.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxText" Collapsed="true">
+    <Position X="28.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCDAAAAAAACAAAKAAAAAAAAAAEAAAAAAggAAAAAE=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxAlignment" Collapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxDocument" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAACAAAAAAAgAIAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledSharp.TmxList&lt;T&gt;" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.PropertyDict" Collapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxImage" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBgAAAAAAAAAAAEAAAAgAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxColor" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAAQA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxBase64Data" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxTileset" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAACQAAAQgABMAAAAAAYgCQAA=</HashCode>
+      <FileName>TiledSharp\Tileset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledSharp.TmxTileOffset" Collapsed="true">
+    <Position X="30" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>TiledSharp\Tileset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxTerrain" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAQA=</HashCode>
+      <FileName>TiledSharp\Tileset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TiledSharp.TmxTilesetTile" Collapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgACCAAIAAAAABAAAIAAAIAAAAAAABAAAQAAAAACAEA=</HashCode>
+      <FileName>TiledSharp\Tileset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiledSharp.TmxAnimationFrame" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\Tileset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TiledSharp.ITmxLayer" Collapsed="true">
+    <Position X="5.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAAAACAAA=</HashCode>
+      <FileName>TiledSharp\ITmxLayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TiledSharp.ICustomLoader" Collapsed="true">
+    <Position X="26.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TiledSharp.ITmxElement" Collapsed="true">
+    <Position X="5.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\TiledCore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Super_Mario.EntityState" Collapsed="true">
+    <Position X="28.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAQgAAAAAAAAAAAAAACAAAAIAAAAQCAAAAAIAI=</HashCode>
+      <FileName>Game\GameEngine\Entity\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Super_Mario.PowerStateType" Collapsed="true">
+    <Position X="31.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAACAAAAABABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Entity\Player.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Super_Mario.TransformationPower" Collapsed="true">
+    <Position X="33.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAEAAQA=</HashCode>
+      <FileName>Game\GameEngine\Entity\Player.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.OrientationType" Collapsed="true">
+    <Position X="30" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAIAAAAAAAAAAAAEAAAAAAgAAAAAABA=</HashCode>
+      <FileName>TiledSharp\Map.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.StaggerAxisType" Collapsed="true">
+    <Position X="35.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>TiledSharp\Map.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.StaggerIndexType" Collapsed="true">
+    <Position X="26.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\Map.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.RenderOrderType" Collapsed="true">
+    <Position X="33.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\Map.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.TmxObjectType" Collapsed="true">
+    <Position X="30" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAAAAAACAASA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.DrawOrderType" Collapsed="true">
+    <Position X="26.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEEAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.TmxHorizontalAlignment" Collapsed="true">
+    <Position X="28.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAACACAAAAIAAA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiledSharp.TmxVerticalAlignment" Collapsed="true">
+    <Position X="31.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>TiledSharp\ObjectGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Super_Mario.UpdateDelegate" Collapsed="true">
+    <Position X="28.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Animations\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Super_Mario.BlockUpdate" Collapsed="true">
+    <Position X="26.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameEngine\Blocks\Block.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -14,8 +14,33 @@ using System.Xml.Linq;
 
 namespace TiledSharp
 {
-    public abstract class TmxDocument
+    public abstract class TmxDocument :IDisposable
     {
+        #region Dispose
+        private bool disposed;
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                
+
+            }
+
+            disposed = true;
+
+        }
+        #endregion
+
         public string TmxDirectory {get; private set;}
 
         protected ICustomLoader CustomLoader { get; }
@@ -24,6 +49,7 @@ namespace TiledSharp
         {
             CustomLoader = customLoader;
             TmxDirectory = string.Empty;
+            
         }
 
         protected XDocument ReadXml(string filepath)
@@ -63,6 +89,8 @@ namespace TiledSharp
 
             return xDoc;
         }
+
+       
     }
 
     public interface ICustomLoader

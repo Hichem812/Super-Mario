@@ -12,6 +12,7 @@ namespace Super_Mario
     {
         #region Fields
         //internal Color color;
+        private bool disposed;
         UpdateDelegate update;
         readonly short SleepTime;
         short SleepTimer, Timer;
@@ -85,6 +86,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         private void InitialazeThrowing()
         {
             this.Timer = 0;

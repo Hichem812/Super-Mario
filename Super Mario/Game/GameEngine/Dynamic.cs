@@ -70,6 +70,9 @@ namespace Super_Mario
                     else if (Tiles[j].Gid == this.itemDictionary["BlockSupriseInvisibleChampignon"])
                         this.Blocks.Add(new BlockSupriseInvisible(new ItemChampignon(0, 0), items, this.BoundinBoxList, x, y));
 
+                    else if (Tiles[j].Gid == this.itemDictionary["BlockSupriseFireInvisible"])
+                        this.Blocks.Add(new BlockSupriseFireInvisible(new ItemChampignon(0, 0), new ItemFireFlower(0, 0), items, this.BoundinBoxList, x, y));
+
                 }
             }
         }
@@ -85,7 +88,7 @@ namespace Super_Mario
             this.itemDictionary.Add("BlockSupriseInvisibleChampignon1Up",13 );
             this.itemDictionary.Add("BlockSupriseInvisibleCoin", 17);
             this.itemDictionary.Add("BlockSupriseInvisibleChampignon", 16);
-            //this.itemDictionary.Add("BlockSupriseFireInvisibleFireFlower", 11);
+            this.itemDictionary.Add("BlockSupriseFireInvisible", 11);
         }
         #endregion
 

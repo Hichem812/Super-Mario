@@ -10,6 +10,7 @@ namespace Super_Mario
     {
 
         #region Fields
+        private bool disposed;
         public Rectangle Hitbox;
         #endregion
 
@@ -47,7 +48,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
 
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         public override void Destroy()
         {
             OnDestroy();

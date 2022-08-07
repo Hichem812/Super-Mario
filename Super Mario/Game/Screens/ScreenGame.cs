@@ -11,6 +11,7 @@ namespace Super_Mario
     internal class ScreenGame : ScreenBase
     {
         #region Static Fields
+        private bool disposed;
         //public static Vector2 PlayerPosition;
         #endregion
 
@@ -30,6 +31,7 @@ namespace Super_Mario
         #region Constructor
         public ScreenGame() : base(ScreenId.Game)
         {
+           
             this.detailsTable = Game1.game.gameManager.detailsTable;
             this.tileMap = new TileMap(GameManager.Stage);
 
@@ -49,12 +51,58 @@ namespace Super_Mario
             
         }
         #endregion
-        
+
         #region Propertise
-         
+
 
         #endregion
 
+        #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                this.player.Dispose();
+                //this.detailsTable.Dispose();
+                this.tileMap.Dispose();
+                
+                foreach (var item in this.Items)
+                    item.Dispose();
+                this.Items.Clear();
+                this.Items = null;
+
+                foreach (var item in this.BoundinBoxList)
+                    item.Dispose();
+                this.BoundinBoxList.Clear();
+                this.BoundinBoxList = null;
+
+                foreach (var item in this.EnemyList)
+                    item.Dispose();
+                this.EnemyList.Clear();
+                this.EnemyList = null;
+
+                foreach (var item in this.bullets)
+                    item.Dispose();
+                this.bullets.Clear();
+                this.bullets = null;
+
+                foreach (var item in this.Blocks)
+                    item.Dispose();
+                this.Blocks.Clear();
+                this.Blocks = null;
+            }
+
+            disposed = true;
+            base.Dispose();
+        }
+        
+        #endregion
+        
         #region Update & Draw
         public override void Update(GameTime gametime)
         {
@@ -86,8 +134,8 @@ namespace Super_Mario
 
             if (this.player.Hitbox.Intersects(EndRectangle))            
                 Game1.game.gameManager.YouWon();
-            
-            if (this.player.powerStateType == PowerStateType.Lous)            
+
+            if (this.player.powerStateType == PowerStateType.Lous)         
                 Game1.game.gameManager.GameOver(this.player);
             
             base.Update(gametime);

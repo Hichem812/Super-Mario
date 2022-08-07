@@ -10,6 +10,7 @@ namespace Super_Mario
     {
         delegate void WitchDraw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects effect = SpriteEffects.None);
         #region Fields
+        private bool disposed;
         SpriteInternal /*FirstSprite,*/ SecondSprite/*, CurentSprite*/;
         short Timer, MilisocondsParFrams;
         bool End;
@@ -39,6 +40,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                SecondSprite.Dispose();
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         private void Initialaze()
         {
             this.witchDraw = DrawThis;

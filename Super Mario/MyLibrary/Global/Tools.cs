@@ -17,6 +17,32 @@ namespace MyLibrary
         #endregion
 
         #region Methods
+
+        #region Dispose
+        private bool disposed;
+        internal void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+              
+            }
+
+            disposed = true;
+
+        }
+        #endregion
+
         public bool IsTouchingRight(Rectangle Hitbox,Rectangle Hitbox2)
         {
             return Hitbox.Left < Hitbox2.Right

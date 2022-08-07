@@ -12,8 +12,8 @@ namespace Super_Mario
     internal class ScreenStart : ScreenBase
     {
         #region Fields
-        
 
+        private bool disposed;
         Vector2 PositonTitel;
         Vector2 PositionButton;
         #endregion
@@ -28,7 +28,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
 
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         #endregion
 
         #region Update & Draw       

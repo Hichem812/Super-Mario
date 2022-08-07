@@ -6,6 +6,7 @@ using System.Text;
 using MyLibrary;
 using Microsoft.Xna.Framework.Input;
 
+
 namespace Super_Mario
 {
     internal enum PowerStateType { Small,Big, White ,Lous }
@@ -15,9 +16,9 @@ namespace Super_Mario
         private delegate void RunPlayer(GameTime gameTime,ref Vector2 Velocity, List<BoundingBox> BoundingBoxList);
         private delegate void CrouchPlayer(GameTime gameTime, ref Vector2 Velocity);
         private delegate void Update_TimeBetoineHurt(GameTime gameTime);
-     
+
         #region Fields
-      
+        private bool disposed;
         private RunPlayer Run;
         private CrouchPlayer Crouch;
         private Update_TimeBetoineHurt updateTimeBetoineHurt;
@@ -74,6 +75,46 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+       
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                foreach (var item in this.animationsShift) 
+                {
+                    foreach (var item2 in item.Value)
+                    {
+                        item2.Value.Dispose();
+                    }
+                    this.animationsShift[item.Key].Clear();
+                }
+                this.animationsShift.Clear();
+                this.animationsShift = null;
+
+                foreach (var item in this.TransformationAnimation)
+                    item.Value.Dispose();
+                this.TransformationAnimation.Clear();
+                this.TransformationAnimation = null;
+
+                foreach (var item in this.bullets)
+                    item.Dispose();
+                this.bullets.Clear();
+                this.bullets = null;
+
+                foreach (var item in this.BoundinBoxList)
+                    item.Dispose();
+                this.BoundinBoxList.Clear();
+                this.BoundinBoxList = null;
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         internal void Push(Vector2 velocity)
         {
             this.Position += velocity;

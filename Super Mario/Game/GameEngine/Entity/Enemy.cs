@@ -10,6 +10,7 @@ namespace Super_Mario
     internal abstract class Enemy : Entity
     {
         #region Fields
+        private bool disposed;
         protected Tools tools;
         protected Player player;
         Rectangle pathway;
@@ -60,6 +61,27 @@ namespace Super_Mario
         internal void SetPlayer(Player player)
         {
             this.player = player;
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                this.tools.Dispose();
+                this.player.Dispose();
+                foreach (var item in this.animationsShift)
+                    item.Value.Dispose();
+                this.animationsShift.Clear();
+                this.animationsShift = null;
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
         }
         #endregion
 

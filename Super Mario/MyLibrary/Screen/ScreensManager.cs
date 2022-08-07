@@ -38,6 +38,14 @@ namespace MyLibrary
 
 
         #region Methods
+        internal Screen Get()
+        {
+            for (int i = 0; i < Count; i++)
+            {
+                if (Screens[i].Id == this.Selected) return Screens[i];
+            }
+            throw new Exception("Not Found");
+        }
 
         public void AddSet(Screen NewScreen)
         {
@@ -68,6 +76,7 @@ namespace MyLibrary
             foreach (Screen item in new List<Screen>(this.Screens))
                 if (item.Id == Id)
                 {
+                    item.Dispose();
                     Remouv(item);
                     return;
                 }

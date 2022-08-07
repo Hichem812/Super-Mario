@@ -88,10 +88,18 @@ namespace Super_Mario
             }           
             else
             {
+                //((Screen)(GameManager.screensmanager.Get()));
+
+                //Screen i = GameManager.screensmanager.Get();
+                //((ScreenGame)i).NewInstance();
+                //this.updates = this.Game;
+
                 //ScreenStart start = new ScreenStart();
+
                 GameManager.screensmanager.AddSet(new ScreenStart());
                 this.updates = this.Game;
                 GameManager.screensmanager.Remouv(ScreenId.Game);
+
                 //Game1.game.InitializeContent();
                 //GameManager.screensmanager.Set(ScreenId.Start);
                 //Game1.game.initialaze();

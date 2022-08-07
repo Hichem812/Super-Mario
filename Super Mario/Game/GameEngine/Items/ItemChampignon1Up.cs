@@ -9,7 +9,7 @@ namespace Super_Mario
     internal class ItemChampignon1Up : Item
     {
         #region Fields
-
+        private bool disposed;
         #endregion
 
         #region Constructor
@@ -21,6 +21,7 @@ namespace Super_Mario
         #region Propertise
 
         #endregion
+
         #region Static Methods
         static Animation GetAnimation()
         {
@@ -30,6 +31,19 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+            if (disposing)
+            {
+
+            }
+            disposed = true;
+            base.Dispose(disposing);
+        }
         public override void PickUp(Player Player)
         {
             if (this.Bounds.Intersects(Player.Hitbox))

@@ -9,7 +9,7 @@ namespace Super_Mario
     internal class ItemFireFlower : Item
     {
         #region Fields
-
+        private bool disposed;
         #endregion
 
         #region Constructor
@@ -32,6 +32,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+              
+            }
+
+            disposed = true;
+            base.Dispose();
+        }
         public override void PickUp(Player Player)
         {
             if (this.Bounds.Intersects(Player.Hitbox))

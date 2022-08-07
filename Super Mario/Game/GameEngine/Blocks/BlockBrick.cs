@@ -10,6 +10,7 @@ namespace Super_Mario
     {
         private delegate void DrawBrick(SpriteBatch spriteBatch,GameTime gameTime);
         #region Fields
+        private bool disposed;
         private List<BoundingBox> BoundinBoxList;
         private DrawBrick DrawingBrick;
         private brickBroken BrickBroken;
@@ -40,6 +41,27 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+      
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                foreach (var item in this.BoundinBoxList)
+                    item.Dispose();
+                this.BoundinBoxList.Clear();
+                this.BoundinBoxList = null;
+
+               if (this.BrickBroken != null) this.BrickBroken.Dispose();
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         public override void Destroy()
         {
            

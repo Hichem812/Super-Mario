@@ -7,6 +7,7 @@ namespace Super_Mario
     internal class BlockSurpriseFire : BlockSurprise
     {
         #region Fields
+        private bool disposed;
         Item item2;
         #endregion
 
@@ -24,6 +25,20 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+            if (disposing)
+            {
+                item2.Dispose();
+            }
+
+            disposed = true;
+            base.Dispose();
+        }
         internal override void IsTouchingBottom(PowerStateType type)
         {
             if (type == PowerStateType.Small) this.item = this.item2;

@@ -7,9 +7,10 @@ using System.Text;
 namespace Super_Mario // check this class 
 {
     public enum EntityState { Idel,Lous, Throw, Walk, Run,StopRun, Jumping, Falling, Crouch }
-    public class Entity : GameObject
+    public class Entity : GameObject ,IDisposable
     {
         #region Fields
+        private bool disposed;
         protected delegate void UpdateEntity(GameTime gameTime);
         public EntityState State;
         protected SpriteEffects Effects;
@@ -38,6 +39,22 @@ namespace Super_Mario // check this class
         #endregion
 
         #region Methods
+       
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+              
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         public override void Destroy()
         {
             this.JumpSpeed = -500;

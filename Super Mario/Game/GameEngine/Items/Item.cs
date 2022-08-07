@@ -9,7 +9,7 @@ namespace Super_Mario
     internal abstract class Item : GameObject
     {
         #region Fields
-
+        private bool disposed;
         #endregion
 
         #region Constructor
@@ -27,6 +27,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose();
+        }
         public virtual void PickUp(Player Player)
         {
             this.Destroy();

@@ -11,6 +11,7 @@ namespace Super_Mario
     {
 
         #region Fields
+        private bool disposed;
         Rectangle Source; 
         //readonly Point_Byte Cell;
         #endregion
@@ -39,7 +40,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
 
+            if (disposing)
+            {
+                
+            }
+
+            disposed = true;
+            base.Dispose();
+        }
         #endregion
 
         #region Update & Draw

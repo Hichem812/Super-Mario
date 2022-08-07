@@ -9,6 +9,7 @@ namespace Super_Mario
     internal class EnemyChampignon : Enemy
     {
         #region Fields
+        private bool disposed;
         private short TimeToDies;
         #endregion
 
@@ -34,7 +35,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
-        
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         protected override void AddAnimations()
         {
             AnimationLoss Loss = new AnimationLoss(Game1.game.Content.Load<Texture2D>("Images\\Entitys\\Enemy\\Enemy Champignon Walk"), 16, 100);

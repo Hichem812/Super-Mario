@@ -12,6 +12,7 @@ namespace Super_Mario
     abstract class ScreenBase : Screen
     {
         #region Fields
+        private bool disposed;
         IMGUI ui;
         #endregion
 
@@ -19,6 +20,24 @@ namespace Super_Mario
         public ScreenBase(byte Id) : base(Id)
         {
             this.ui = Game1.UI;            
+        }
+        #endregion
+
+        #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
         }
         #endregion
 

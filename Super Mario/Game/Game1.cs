@@ -22,7 +22,7 @@ namespace Super_Mario
         public static Game1 game;
         public static IMGUI UI;
         internal static Rectangle DestinationRec;
-        RenderTarget2D renderTarget;
+        internal RenderTarget2D renderTarget;
         public GameManager gameManager;
         
         public Game1()
@@ -66,6 +66,7 @@ namespace Super_Mario
             this.renderTarget = new RenderTarget2D(GraphicsDevice,
                    Settings.GameWidth, Settings.GameHeight);
         }
+       
         //internal void InitializeContent()
         //{
         //    this.UnloadContent();

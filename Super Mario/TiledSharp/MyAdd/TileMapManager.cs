@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using MyLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace TiledSharp // i aded this Class
 {   
-    public class TileMapManager
+    public class TileMapManager :IDisposable
     {
         #region Fields        
-       
+        private bool disposed;
         RenderTarget2D RenderTarger;
         internal int MapHeightPixel;
         internal int MapWidihPixel;        
@@ -22,7 +21,7 @@ namespace TiledSharp // i aded this Class
         #region Constructor       
         /// <param name="LayerDnotDrawIt">if You gave a layers you showld not Draw it</param>
         public TileMapManager(GraphicsDevice GraphicsDevice, SpriteBatch SpriteBatch, TmxMap map, Texture2D tileset, int tilesetTileswide, int tilewidth, int tileHeight, byte LayerDnotDrawIt = 0)
-        {
+        {            
             //TmxMap map;
             //Texture2D tileset;
             //int tilesetTileswide;
@@ -77,7 +76,27 @@ namespace TiledSharp // i aded this Class
         #endregion
 
         #region Methods
-       
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {           
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                this.RenderTarger.Dispose();
+            }
+
+            disposed = true;
+
+        }
         #endregion
 
         #region Updat & Draw
@@ -87,6 +106,7 @@ namespace TiledSharp // i aded this Class
 
            
         }
+       
         #endregion
     }
 }

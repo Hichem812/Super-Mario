@@ -7,10 +7,10 @@ using TiledSharp;
 
 namespace Super_Mario
 {
-    internal class TileMap
+    internal class TileMap :IDisposable
     {
         #region Fields
-
+        private bool disposed;
         TmxMap map;
         internal TileMapManager tilemapManager;
         Texture2D tileset;
@@ -24,6 +24,8 @@ namespace Super_Mario
         #region Constructor
         public TileMap(byte Stage_Number)
         {
+            
+
             map = new TmxMap(Get_StrMap(Stage_Number));
             tileset = Game1.game.Content.Load<Texture2D>("Images\\Texture\\" + map.Tilesets[0].Name.ToString());
             int tilewidth = map.Tilesets[0].TileWidth;
@@ -32,7 +34,7 @@ namespace Super_Mario
 
             tilemapManager = new TileMapManager(Game1.game.GraphicsDevice, Game1.spriteBatch, map, tileset, tilesetTileWith, tilewidth, tileHeight,1);
 
-
+           
             #region Colision Start End
             this.BoundinBoxList = new List<BoundingBox>();
             foreach (var o in map.ObjectGroups["Colisions"].Objects)
@@ -107,7 +109,46 @@ namespace Super_Mario
         #endregion
 
         #region Methods
-        
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                this.map.Dispose();
+                this.tilemapManager.Dispose();
+                //this.tileset.Dispose();
+                
+                foreach (BoundingBox item in this.BoundinBoxList)
+                    item.Dispose();
+                this.BoundinBoxList.Clear();
+                this.BoundinBoxList = null;
+
+                foreach (Enemy item in this.EnemyList)
+                    item.Dispose();
+                this.EnemyList.Clear();
+                this.EnemyList = null;
+
+                foreach (Block item in this.Blocks)
+                    item.Dispose();
+                this.Blocks.Clear();
+                this.Blocks = null;
+                
+            }
+
+            disposed = true;
+
+        }
+
         string Get_StrMap(byte Stage_Number)
         {
             if (Stage_Number < 10)
@@ -152,6 +193,7 @@ namespace Super_Mario
         {
             this.tilemapManager.Draw(spriteBatch);
         }
+               
         #endregion
     }
 }

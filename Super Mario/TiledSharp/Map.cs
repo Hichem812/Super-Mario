@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace TiledSharp
 {
-    public class TmxMap : TmxDocument
+    public class TmxMap : TmxDocument 
     {
         public string Version {get; private set;}
         public string TiledVersion { get; private set; }

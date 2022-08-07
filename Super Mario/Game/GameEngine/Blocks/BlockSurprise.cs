@@ -4,19 +4,20 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.Xna.Framework;
 
+
 namespace Super_Mario
 {
     internal class BlockSurprise : Block
     {
         #region Fields
-
+        private bool disposed;
         delegate void SurpriseDrow(SpriteBatch spriteBatch, GameTime gameTime);
         delegate void SurpriseUpdate(GameTime gameTime);
         SurpriseDrow surpriseDrow;
         SurpriseUpdate surpriseUpdate;
         List<Item> items;
         protected Item item;
-        private List<BoundingBox> BoundinBoxList;
+        protected List<BoundingBox> BoundinBoxList;
         #endregion
 
         #region Constructor
@@ -34,6 +35,32 @@ namespace Super_Mario
         #region Propertise
 
         #endregion Methods
+        
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                foreach (var item in this.items)
+                    item.Dispose();
+                this.items.Clear();
+                this.items = null;
+
+                this.item.Dispose();
+
+                foreach (var item in this.BoundinBoxList)
+                    item.Dispose();
+                this.BoundinBoxList.Clear();
+                this.BoundinBoxList = null;
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         internal override void IsTouchingBottom(PowerStateType type)
         {
             if (this.item != null) 

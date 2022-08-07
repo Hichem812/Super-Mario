@@ -10,6 +10,7 @@ namespace Super_Mario
     internal class AnimationLoss : Sprite
     {
         #region Fields
+        private bool disposed;
         private short Timer;
         private byte ColumnCurent, width, height, TimeToFinish;
         private float MilisocondsParFrams, Rotation;
@@ -41,6 +42,21 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose();
+        }
         internal bool TheEnd()
         {
             return this.TimeToFinish <= 0;

@@ -9,6 +9,7 @@ namespace Super_Mario
     internal class EnemyKoopaTroopa : Enemy
     {
         #region Fields
+        private bool disposed;
         private const float DefoltSpeed = 2f;
         private short Timer;
         private readonly short TimerDefoltValue;
@@ -40,7 +41,22 @@ namespace Super_Mario
         #endregion
 
         #region Methods
-        
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                //foreach (var item in this.EnemyList)
+                //    item.Dispose();                
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         protected override void AddAnimations()
         {
             AnimationLoss Loss = new AnimationLoss(Game1.game.Content.Load<Texture2D>("Images\\Entitys\\Enemy\\KoopaTroopa Bypase"), 6, 100);

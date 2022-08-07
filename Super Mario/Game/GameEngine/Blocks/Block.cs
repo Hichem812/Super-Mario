@@ -4,12 +4,14 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
+
 namespace Super_Mario
 {
     delegate void BlockUpdate(GameTime gameTime);
     internal abstract class Block : ObjectBase
-    {         
+    {
         #region Fields
+        private bool disposed;
         protected BlockUpdate blockUpdate;
         protected BoundingBox box;
         protected private SByte TouchingMouvment;
@@ -19,13 +21,17 @@ namespace Super_Mario
 
         #region Constructor
         internal Block(Animation animation, float X, float Y) : base(animation, new Vector2(X, Y))
-        {
-            this.box = new BoundingBoxBlock(new Rectangle((int)X, (int)Y, sprite.Width, sprite.Height), this);
+        {            
+            this.box = AddBox(new Rectangle((int)X, (int)Y, sprite.Width, sprite.Height), this);
             this.sprite = animation;
             this.TouchingMouvment = 0;
             this.TimerMouvment = 0;
             //this.IsMouvment = false;
             this.blockUpdate = UpdateEco;
+        }
+        protected virtual BoundingBoxBlock AddBox(Rectangle rec,Block block)
+        {
+            return new BoundingBoxBlock(rec, this);
         }
         #endregion
 
@@ -39,6 +45,22 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+       
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
         internal virtual void IsTouchingBottom(PowerStateType type)
         {
             if (type == PowerStateType.Small)

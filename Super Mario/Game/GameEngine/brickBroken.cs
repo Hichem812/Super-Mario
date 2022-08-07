@@ -9,6 +9,7 @@ namespace Super_Mario
     internal class brickBroken
     {
         #region Fields
+        private bool disposed;
         private Rectangle[] Rects;
         private Vector2[] Positions;
         private Texture2D texture;
@@ -49,6 +50,28 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                this.texture.Dispose();
+                this.brick.Dispose();
+            }
+
+            disposed = true;
+
+        }
         private void MouveUp(GameTime gameTime)
         {
             this.Timer += (short)(gameTime.ElapsedGameTime.Milliseconds);

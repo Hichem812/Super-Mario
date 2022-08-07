@@ -6,10 +6,10 @@ using System.Text;
 
 namespace Super_Mario
 {
-    public abstract class ObjectBase //If I don't need him, I will combine him and GameObject
+    public abstract class ObjectBase:IDisposable  //If I don't need him, I will combine him and GameObject
     {
         #region Fields
-
+        private bool disposed;
         protected Sprite sprite;
         private Vector2 _Position;
         protected bool isDestroyed;
@@ -36,7 +36,27 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
 
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                this.sprite.Dispose();
+            }
+
+            disposed = true;
+
+        }
         public abstract void Destroy();
         public abstract void OnDestroy();
         #endregion
@@ -45,6 +65,10 @@ namespace Super_Mario
 
         public abstract void Update(GameTime gameTime);
         public abstract void Draw(SpriteBatch spriteBatch,GameTime gameTime);
+
+     
+
+
         #endregion
     }
 }

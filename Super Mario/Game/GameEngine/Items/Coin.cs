@@ -10,7 +10,7 @@ namespace Super_Mario
     internal class Coin : Item
     {
         #region Fields
-
+        private bool disposed;
         #endregion
 
         #region Constructor
@@ -30,11 +30,26 @@ namespace Super_Mario
         {
             Texture2D SpriteCoins = Game1.game.Content.Load<Texture2D>("Images\\Texture\\Coins");
             return new Animation(SpriteCoins,8,false, 120);
-        }  
+        }
 
         #endregion
-        
+
         #region Methods
+        protected override void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+            if (disposing)
+            {
+
+            }
+
+            disposed = true;
+            base.Dispose(disposing);
+        }
+
         public override void PickUp(Player Player)
         {
             if (this.Bounds.Intersects(Player.Hitbox))

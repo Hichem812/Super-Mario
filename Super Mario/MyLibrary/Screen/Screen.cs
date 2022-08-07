@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
  namespace MyLibrary
 {
-    public abstract class Screen
+    public abstract class Screen :IDisposable
     {
         #region Fields
         byte id;
-       
+        private bool disposed;
 
         #endregion
 
@@ -20,6 +20,30 @@ using System.Threading.Tasks;
         public Screen(byte Id)
         {
             this.id = Id;
+        }
+        #endregion
+
+        #region Methods
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+               
+            }
+
+            disposed = true;
+            
         }
         #endregion
 

@@ -6,12 +6,12 @@ using System.Text;
 
 namespace Super_Mario
 {
-    public class Sprite // to check if I don't need it I'm going to delete it
+    public class Sprite :IDisposable // to check if I don't need it I'm going to delete it
     {
 
         #region Fields
         public Texture2D spriteSheet;
-
+        private bool disposed;
         #endregion
 
         #region Constructor
@@ -27,7 +27,27 @@ namespace Super_Mario
         #endregion
 
         #region Methods
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
 
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposed)
+            {
+                return;
+            }
+
+            if (disposing)
+            {
+                //this.spriteSheet.Dispose();
+            }
+
+            disposed = true;
+
+        }
         #endregion
 
         #region Update & Draw
