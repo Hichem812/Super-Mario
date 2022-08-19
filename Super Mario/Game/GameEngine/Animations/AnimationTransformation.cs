@@ -110,11 +110,11 @@ namespace Super_Mario
         {
             this.SecondSprite.Draw(spriteBatche, Position, effect);
         }
-        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects effect = SpriteEffects.None)
+        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects effect = SpriteEffects.None, float layerDeft = 0f)
         {
             this.witchDraw(spriteBatche, Position, effect);
         }
-        public override void Draw(SpriteBatch spriteBatche, Vector2 Position,Color color, SpriteEffects effect = SpriteEffects.None)
+        public override void Draw(SpriteBatch spriteBatche, Vector2 Position,Color color, SpriteEffects effect = SpriteEffects.None, float layerDeft = 0f)
         {
             this.witchDraw(spriteBatche, Position, effect);
         }

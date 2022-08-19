@@ -125,7 +125,7 @@ namespace Super_Mario
 
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
-            this.Animation.Draw(spriteBatch, this.Position);
+            this.Animation.Draw(spriteBatch, this.Position,SpriteEffects.None,0.12f);
             //Texture2D SpriteCoins = Game1.game.Content.Load<Texture2D>("Images\\Texture\\Brick anime");
             //spriteBatch.Draw(SpriteCoins, this.box.Bounds, Color.White);
         }

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Super_Mario;
 
 namespace TiledSharp // i aded this Class
 {   
@@ -15,23 +15,15 @@ namespace TiledSharp // i aded this Class
         private bool disposed;
         RenderTarget2D RenderTarger;
         internal int MapHeightPixel;
-        internal int MapWidihPixel;        
+        internal int MapWidihPixel;
+        //private Color BackGroundColor;
         #endregion
 
         #region Constructor       
         /// <param name="LayerDnotDrawIt">if You gave a layers you showld not Draw it</param>
-        public TileMapManager(GraphicsDevice GraphicsDevice, SpriteBatch SpriteBatch, TmxMap map, Texture2D tileset, int tilesetTileswide, int tilewidth, int tileHeight, byte LayerDnotDrawIt = 0)
-        {            
-            //TmxMap map;
-            //Texture2D tileset;
-            //int tilesetTileswide;
-            //int tileWidth;
-            //int tileHeight;
-            //map = _map;
-            //tileset = _tileset;
-            //tilesetTileswide = _tilesetTileswide;
-            //tileWidth = _tilewidth;
-            //tileHeight = _tileHeight;
+        public TileMapManager(GraphicsDevice GraphicsDevice, SpriteBatch SpriteBatch, TmxMap map, Texture2D tileset, int tilesetTileswide, int tilewidth, int tileHeight/*,Color BackGroundColor*/, byte LayerDnotDrawIt = 0)
+        {
+            //this.BackGroundColor = BackGroundColor;
 
             MapWidihPixel = map.TileWidth * map.Width;
             MapHeightPixel = map.TileHeight * map.Height;
@@ -40,7 +32,7 @@ namespace TiledSharp // i aded this Class
 
 
             GraphicsDevice.SetRenderTarget(this.RenderTarger);
-            GraphicsDevice.Clear(Color.SkyBlue);
+            GraphicsDevice.Clear(GameManager.color*0f);//Color.SkyBlue);
             SpriteBatch.Begin();
             //for (var i = map.TileLayers.Count - 1; i >= 0; i--)// Layers signifie Couches
             for (var i = 0; i < map.TileLayers.Count - LayerDnotDrawIt/*-1 pour eviter les s*/; i++)
@@ -101,10 +93,11 @@ namespace TiledSharp // i aded this Class
 
         #region Updat & Draw
         public void Draw(SpriteBatch spritebatch)
-        {
-            spritebatch.Draw(this.RenderTarger, new Vector2(0, 0), Color.White);
+        {   
+            spritebatch.Draw(this.RenderTarger,new Rectangle(0,0,this.RenderTarger.Width,this.RenderTarger.Height)
+                ,null ,Color.White,0f,Vector2.Zero/*Vector2.Zero*/,SpriteEffects.None,0.11f);
 
-           
+            //spriteBatche.Draw(spriteSheet, Position, rect, color, 0f, new Vector2(), 1f, effect, layerDeft);
         }
        
         #endregion

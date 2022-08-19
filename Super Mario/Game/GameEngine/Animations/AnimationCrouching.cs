@@ -91,13 +91,13 @@ namespace Super_Mario
         {
             UpdateC(gameTime);
         }
-        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects Effects)
+        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects Effects, float layerDeft = 0f)
         {
-            spriteBatche.Draw(this.CurentFrame, Position, null, Color.White, 0f, new Vector2(), 1f, Effects, 1);
+            spriteBatche.Draw(this.CurentFrame, Position, null, Color.White, 0f, new Vector2(), 1f, Effects, layerDeft);
         }
-        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, Color color, SpriteEffects Effects = SpriteEffects.None)
+        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, Color color, SpriteEffects Effects = SpriteEffects.None, float layerDeft = 0f)
         {
-            spriteBatche.Draw(this.CurentFrame, Position, null, color, 0f, new Vector2(), 1f, Effects, 1);
+            spriteBatche.Draw(this.CurentFrame, Position, null, color, 0f, new Vector2(), 1f, Effects, layerDeft);
 
         }
         #endregion

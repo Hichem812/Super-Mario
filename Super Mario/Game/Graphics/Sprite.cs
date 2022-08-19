@@ -55,13 +55,14 @@ namespace Super_Mario
         {
 
         }
-        public virtual void Draw(SpriteBatch spriteBatche, Vector2 Position,SpriteEffects Effects)
+     
+        public virtual void Draw(SpriteBatch spriteBatche, Vector2 Position,SpriteEffects Effects, float layerDeft = 0f)
         {           
-            spriteBatche.Draw(spriteSheet, Position, null, Color.White, 0f, new Vector2(), 1f, Effects, 1);
+            spriteBatche.Draw(spriteSheet, Position, null, Color.White, 0f, new Vector2(), 1f, Effects, layerDeft);
         }
-        public virtual void Draw(SpriteBatch spriteBatche, Vector2 Position, Color color, SpriteEffects Effects)
+        public virtual void Draw(SpriteBatch spriteBatche, Vector2 Position, Color color, SpriteEffects Effects, float layerDeft = 0f)
         {
-            spriteBatche.Draw(spriteSheet, Position, null, color, 0f, new Vector2(), 1f, Effects, 1);
+            spriteBatche.Draw(spriteSheet, Position, null, color, 0f, new Vector2(), 1f, Effects, layerDeft);
         }
         #endregion
 

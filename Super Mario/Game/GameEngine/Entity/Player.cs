@@ -22,7 +22,7 @@ namespace Super_Mario
         private RunPlayer Run;
         private CrouchPlayer Crouch;
         private Update_TimeBetoineHurt updateTimeBetoineHurt;
-        private float Speed, /*JumpSpeed, */Gravity /*,fallSpeed, startY*/;//vitesse de chute        
+        private float Gravity, Speed;       
         private Dictionary<PowerStateType, Dictionary<EntityState, Sprite>> animationsShift;
         private Dictionary<TransformationPower, AnimationTransformation> TransformationAnimation;
         internal PowerStateType powerStateType;
@@ -34,6 +34,7 @@ namespace Super_Mario
         private List<Bullet> bullets;
         private List<BoundingBox> BoundinBoxList;
         internal byte Life;
+        internal bool? ToRight;
         #endregion
 
         #region Constructor
@@ -286,14 +287,7 @@ namespace Super_Mario
         Dictionary<TransformationPower, AnimationTransformation> AddAnimationsTransformation(string strPath)
         {
             Dictionary<TransformationPower, AnimationTransformation> List = new Dictionary<TransformationPower, AnimationTransformation>();
-            //this.TransformationAnimation = new Dictionary<PowerStateType[], Animation>();
-            //PowerStateType[] Curent = { PowerStateType.Curent, PowerStateType.Curent };
            
-            //PowerStateType[] FromBigToSmall  = { PowerStateType.Big, PowerStateType.Small };
-            //PowerStateType[] FromBigToWhite  = { PowerStateType.Big, PowerStateType.White };
-            //PowerStateType[] FromWhiteToBig  = { PowerStateType.White, PowerStateType.Big };
-            //PowerStateType[] FromSmallToLous = { PowerStateType.Small, PowerStateType.Lous };
-
             Texture2D Small = Game1.game.Content.Load<Texture2D>(strPath + "Mario Idel Pm");
             Texture2D Big = Game1.game.Content.Load<Texture2D>(strPath + "mario Idel gm");
             Texture2D White = Game1.game.Content.Load<Texture2D>(strPath + "White Idel");
@@ -302,7 +296,7 @@ namespace Super_Mario
             AnimationTransformation animationBigToSmall = new AnimationTransformation( Big, 4, 1, 0, 0, Small, 3, 1, 0, 0);
             AnimationTransformation animationBigToWhite = new AnimationTransformation(Big, 4, 1, 0, 0,White,3,1,0,0);
             AnimationTransformation animationWhiteToBig = new AnimationTransformation( White, 3, 1, 0, 0, Big, 4, 1, 0, 0);
-            //List.Add(Curent, animationSmallToBig);
+            
             List.Add(TransformationPower.SmallToBig, animationSmallToBig);
             List.Add(TransformationPower.BigToWhite, animationBigToWhite);
             return List;
@@ -343,13 +337,16 @@ namespace Super_Mario
         }
         private void Mouve(GameTime gameTime, ref Vector2 Velocity, List<BoundingBox> BoundingBoxList)
         {
+            this.ToRight = null;
             if (Input.IskeyDown(Settings.KeyRight))
             {
+                
                 //this.walkSpeed = SpeedWalk;
                 Velocity.X = this.Speed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
                 if (!CheckColisionFromTheRight(ref Velocity, BoundingBoxList))
                 {
+                    this.ToRight = true;
                     this.State = EntityState.Walk;
                     this.Effects = SpriteEffects.None;
                 }
@@ -357,11 +354,13 @@ namespace Super_Mario
             }
             else if (Input.IskeyDown(Settings.KeyLeft)) //arreter ici sur le run crouche walck speed
             {
+                
                 //this.walkSpeed = SpeedWalk;
                 Velocity.X = -(this.Speed * (float)gameTime.ElapsedGameTime.TotalSeconds);
 
                 if (!CheckColisionFromTheLeft(ref Velocity, BoundingBoxList))
                 {
+                    this.ToRight = false;
                     this.State = EntityState.Walk;
                     this.Effects = SpriteEffects.FlipHorizontally;
                 }
@@ -643,7 +642,7 @@ namespace Super_Mario
         }
         public override void Draw(SpriteBatch SpriteBatch, GameTime gameTime)
         {
-            this.CurentAnimation.Draw(SpriteBatch, this.Position, this.color, this.Effects);
+            this.CurentAnimation.Draw(SpriteBatch, this.Position, this.color, this.Effects,0.13f);
         }
         #endregion
 

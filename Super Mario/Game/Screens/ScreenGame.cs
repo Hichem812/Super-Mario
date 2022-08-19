@@ -17,6 +17,7 @@ namespace Super_Mario
 
         #region Fields
         Player player;
+        BackGround backGround;
         DetailsTable detailsTable;        
         TileMap tileMap;
         List<Item> Items;
@@ -30,17 +31,16 @@ namespace Super_Mario
 
         #region Constructor
         public ScreenGame() : base(ScreenId.Game)
-        {
-           
+        {            
             this.detailsTable = Game1.game.gameManager.detailsTable;
+            this.backGround = new BackGround(GameManager.Stage,Game1.game.camera);
+            GameManager.color = this.backGround.color;
             this.tileMap = new TileMap(GameManager.Stage);
-
             this.Items = new List<Item>();
             this.tileMap.GetItems(ref this.Items);
             this.BoundinBoxList = tileMap.BoundinBoxList;
             this.Blocks = tileMap.Blocks;
-            this.EnemyList = tileMap.EnemyList;
-            //this.EnemyList = new List<Enemy>();
+            this.EnemyList = tileMap.EnemyList;            
 
             this.bullets = new List<Bullet>();
             this.EndRectangle = tileMap.EndRectangle;
@@ -112,9 +112,9 @@ namespace Super_Mario
                 item.Update(gametime,this.player);
                 if (item.IsDestroyed)this.Items.Remove(item);
             }
-            this.detailsTable.InTheGame(gametime, player);
-                      
-            player.Update(gametime);
+            this.detailsTable.InTheGame(gametime, player);            
+            this.player.Update(gametime);            
+            this.backGround.Update(this.player.ToRight);
             foreach (var item in new List<Block> (this.Blocks))
             {
                 item.Update(gametime);
@@ -143,10 +143,12 @@ namespace Super_Mario
 
         public override void Draw(SpriteBatch spritebatche, GameTime gameTime)
         {
-            base.Draw(spritebatche, gameTime);
+            //base.Draw(spritebatche, gameTime);
+
+            
 
             this.tileMap.Draw(spritebatche, gameTime);
-
+            this.backGround.Draw(spritebatche);
             foreach (var item in this.Blocks)            
                 item.Draw(spritebatche,gameTime);
             
@@ -159,7 +161,8 @@ namespace Super_Mario
             foreach (var bul in this.bullets)            
                 bul.Draw(spritebatche, gameTime);
             
-            player.Draw(spritebatche, gameTime);           
+            player.Draw(spritebatche, gameTime);
+            
         }
     }
 

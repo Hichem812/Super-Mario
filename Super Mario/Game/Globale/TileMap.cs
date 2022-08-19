@@ -19,22 +19,21 @@ namespace Super_Mario
         internal List<Block> Blocks;
         internal Point PlayerStart;
         internal Rectangle EndRectangle;
+        //private Color BackGroundColor;
         #endregion
 
         #region Constructor
-        public TileMap(byte Stage_Number)
+        public TileMap(byte Stage_Number/*,Color BackGroundColor*/)
         {
-            
-
+            //this.BackGroundColor = BackGroundColor;
             map = new TmxMap(Get_StrMap(Stage_Number));
             tileset = Game1.game.Content.Load<Texture2D>("Images\\Texture\\" + map.Tilesets[0].Name.ToString());
             int tilewidth = map.Tilesets[0].TileWidth;
             int tileHeight = map.Tilesets[0].TileHeight;
             int tilesetTileWith = tileset.Width / tilewidth;
 
-            tilemapManager = new TileMapManager(Game1.game.GraphicsDevice, Game1.spriteBatch, map, tileset, tilesetTileWith, tilewidth, tileHeight,1);
-
-           
+            tilemapManager = new TileMapManager(Game1.game.GraphicsDevice, Game1.spriteBatch, map, tileset, tilesetTileWith, tilewidth, tileHeight/*, BackGroundColor*/,1);
+                       
             #region Colision Start End
             this.BoundinBoxList = new List<BoundingBox>();
             foreach (var o in map.ObjectGroups["Colisions"].Objects)
@@ -68,8 +67,7 @@ namespace Super_Mario
                     EnemyKoopaTroopa enemy = new EnemyKoopaTroopa(rect, this.EnemyList);                   
                         this.EnemyList.Add(enemy);
                     if (Numb > 1)
-                    {     
-                        
+                    {                          
                         int width = rect.Width - enemy.Width;
                         int distance = width / Numb;
                         for (int i = 1; i < Numb; i++)

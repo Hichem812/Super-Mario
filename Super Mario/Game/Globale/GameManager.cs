@@ -19,6 +19,7 @@ namespace Super_Mario
 
         public static ScreensManager screensmanager;
         public static byte Stage = 1;
+        public static Color color;
         #endregion
 
         #region Fields
@@ -26,6 +27,7 @@ namespace Super_Mario
         Game1 game;
         Player player;
         public DetailsTable detailsTable;
+        
         #endregion
 
         #region Constructor
@@ -33,14 +35,15 @@ namespace Super_Mario
         public GameManager(Game1 Game)
         {
            this.game = Game;
+            //color = Color.Black;
             screensmanager = new ScreensManager();
-            screensmanager.Add(new ScreenStart());
+            screensmanager.Add(new ScreenStart());           
             this.updates = this.Game;
-            this.detailsTable = new DetailsTable();
+            this.detailsTable = new DetailsTable();            
         }
         #endregion
 
-        #region Propertis
+        #region Propertis       
         #endregion
 
         #region Methods

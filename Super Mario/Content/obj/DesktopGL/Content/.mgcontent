@@ -4,6 +4,18 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-1.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-10.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-11.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-12.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-2.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-3.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-4.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-5.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-6.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-7.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-8.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-9.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/Enemy Champignon Lous.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/Enemy Champignon Walk.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Enemy/KoopaTroopa Bypase.png</File>
@@ -51,6 +63,18 @@
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/TextureClassic.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

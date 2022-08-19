@@ -10,10 +10,11 @@ namespace MyLibrary
     {
         #region Fields
        
-        public Matrix Transform;
+        //private Matrix _Transform;
         int Width;
         int Height;
         Rectangle target;
+        private Vector3 translation;
         #endregion
 
         #region Constructor
@@ -26,7 +27,9 @@ namespace MyLibrary
         #endregion
 
         #region Propertise
-
+        public Vector3 Translation { get { return this.translation; } }
+        //public int TargetX { get { return this.target.X; } }
+        //public Matrix Transform { get { return _Transform; } }
         #endregion
 
         #region Methods
@@ -58,14 +61,13 @@ namespace MyLibrary
 
             target.Y = MathHelper.Clamp(target.Y, Height, MapHeightPixel-Height-(target.Height/2 )/*Height + 1220*/ /*+ TarbertYValue*/);// clamp pour limeter la camera verticalement
 
-            Vector3 translation = new Vector3(-target.X - target.Width / 2,  // depalacmant de camera an suvent le player et (-) an sanse contre la direction de player 
+            this.translation = new Vector3(-target.X - target.Width / 2,  // depalacmant de camera an suvent le player et (-) an sanse contre la direction de player 
                                         -target.Y - target.Height / 2, 0);
 
             Vector3 offset = new Vector3(Settings.GameWidth / 2, Settings.GameHeight / 2, 0);//la taile de l'cran parapor la map
 
-
-            Transform = Matrix.CreateTranslation(translation) * Matrix.CreateTranslation(offset)/**zoom*/;
-
+            Matrix Transform = Matrix.CreateTranslation(translation) * Matrix.CreateTranslation(offset)/**zoom*/;
+                
             return Transform;
         }
         //public Matrix Update(Rectangle target, int MapWidihPixel, int MapHeightPixel)
@@ -85,9 +87,6 @@ namespace MyLibrary
         //    return Transform;
         //}
         #endregion
-
-
-
 
     }
 }

@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using TiledSharp;
 using Apos.Gui;
 using FontStashSharp;
-//using FontStashSharp;
 
 namespace Super_Mario
 {
@@ -25,6 +24,7 @@ namespace Super_Mario
         internal RenderTarget2D renderTarget;
         public GameManager gameManager;
         
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -108,7 +108,7 @@ namespace Super_Mario
         private void DrawGameplay(GameTime gameTime)
         {
             GraphicsDevice.SetRenderTarget(renderTarget);
-            GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(GameManager.color);
             spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend, SamplerState.PointClamp, null, null, null, transformMatrix /*Matrix.CreateScale(Settings.PixelRatio)*/);
 
             this.gameManager.Draw(spriteBatch, gameTime);
@@ -136,7 +136,7 @@ namespace Super_Mario
             //    rect = new Rectangle(0, 0, (int)Settings.GameWidth, (int)Settings.GameHeight);
             //}
 
-            spriteBatch.Draw(renderTarget,DestinationRec /*rect*/, new Rectangle?(), Color.White, 0, new Vector2((float)(0), (float)(0)), SpriteEffects.None, 0.0f);
+            spriteBatch.Draw(renderTarget,DestinationRec /*rect*/, new Rectangle?(), Color.White, 0, new Vector2((float)(0), (float)(0)), SpriteEffects.None, 0.12f);
 
             spriteBatch.End();
         }

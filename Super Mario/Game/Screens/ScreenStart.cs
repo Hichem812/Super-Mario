@@ -23,6 +23,7 @@ namespace Super_Mario
         {            
             this.PositonTitel = new Vector2((Settings.GameWidth / 2) - 80, 10);
             this.PositionButton = new Vector2(PositonTitel.X + 40, PositonTitel.Y + 200);
+            GameManager.color = Color.Black;
         }
 
         #endregion

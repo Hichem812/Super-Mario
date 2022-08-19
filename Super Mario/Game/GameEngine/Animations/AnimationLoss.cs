@@ -76,14 +76,14 @@ namespace Super_Mario
             }
             
         }
-        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects effect = SpriteEffects.None)
+        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects effect = SpriteEffects.None, float layerDeft = 0f)
         {
             //var rect = new Rectangle(this.width * this.ColumnCurent, this.height * 0/*Row*/, this.width, this.height);
-            spriteBatche.Draw(spriteSheet, Position, rect, Color.White, this.Rotation, this.Origin, 1f, effect, 1);
+            spriteBatche.Draw(spriteSheet, Position, rect, Color.White, this.Rotation, this.Origin, 1f, effect, layerDeft);
         }
-        public override void Draw(SpriteBatch spriteBatche, Vector2 Position,Color color, SpriteEffects effect = SpriteEffects.None)
+        public override void Draw(SpriteBatch spriteBatche, Vector2 Position,Color color, SpriteEffects effect = SpriteEffects.None, float layerDeft = 0f)
         {        
-            spriteBatche.Draw(spriteSheet, Position, rect, Color.White, this.Rotation, this.Origin, 1f, effect, 1);
+            spriteBatche.Draw(spriteSheet, Position, rect, Color.White, this.Rotation, this.Origin, 1f, effect, layerDeft);
         }
         #endregion
     }

@@ -71,7 +71,7 @@ namespace Super_Mario
                 this.items.Add(this.item);
                 this.item = null;
                 Texture2D Sprite = Game1.game.Content.Load<Texture2D>("Images\\Texture\\TextureClassic");
-                this.sprite = new SpriteInternal(Sprite, 9, 6, 0, 1);
+                this.sprite = new SpriteInternal(Sprite, 9, 9, 0, 1);
                 this.surpriseDrow = this.DrawEmpty;
                 this.surpriseUpdate = this.UpdateEmpty;
             }
@@ -103,7 +103,7 @@ namespace Super_Mario
         }
         internal void DrawEmpty(SpriteBatch spriteBatch,GameTime gameTime)
         {
-            ((SpriteInternal)this.sprite).Draw(spriteBatch, this.Position,SpriteEffects.None);
+            ((SpriteInternal)this.sprite).Draw(spriteBatch, this.Position,SpriteEffects.None,0.12f);
         }
         #endregion
 

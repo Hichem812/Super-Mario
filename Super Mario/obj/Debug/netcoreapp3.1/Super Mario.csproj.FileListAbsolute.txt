@@ -630,3 +630,15 @@ E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\net
 E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Staind Up.xnb
 E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Entitys\Enemy\KoopaTroopa Walk.xnb
 E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Texture\Champignion 1up.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-1.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-10.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-11.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-12.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-2.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-3.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-4.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-5.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-6.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-7.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-8.xnb
+E:\mes document\Visual Studio 2022\Project\Super Mario\Super Mario\bin\Debug\netcoreapp3.1\Content\Images\Background\BackGroundLevel1-9.xnb

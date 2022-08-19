@@ -58,10 +58,10 @@ namespace Super_Mario
         #endregion
 
         #region Update & Draw
-        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects Effects)
+        public override void Draw(SpriteBatch spriteBatche, Vector2 Position, SpriteEffects Effects, float layerDeft = 0f)
         {
             
-            spriteBatche.Draw(this.spriteSheet, Position, this.Source, Color.White, 0f, new Vector2(), 1f, Effects, 1);
+            spriteBatche.Draw(this.spriteSheet, Position, this.Source, Color.White, 0f, new Vector2(), 1f, Effects, layerDeft);
         }
 
         #endregion

@@ -95,7 +95,7 @@ namespace Super_Mario // check this class
         
         public override void Draw(SpriteBatch SpriteBatch, GameTime gameTime)
         {
-            this.CurentAnimation.Draw(SpriteBatch, this.Position, this.Effects);
+            this.CurentAnimation.Draw(SpriteBatch, this.Position, this.Effects,0.13f);
         }
         #endregion
     }
