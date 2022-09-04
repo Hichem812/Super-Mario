@@ -32,7 +32,7 @@ namespace TiledSharp // i aded this Class
 
 
             GraphicsDevice.SetRenderTarget(this.RenderTarger);
-            GraphicsDevice.Clear(GameManager.color*0f);//Color.SkyBlue);
+            GraphicsDevice.Clear(GameManager.color/*Color.Black*/* 0f);//Color.SkyBlue);
             SpriteBatch.Begin();
             //for (var i = map.TileLayers.Count - 1; i >= 0; i--)// Layers signifie Couches
             for (var i = 0; i < map.TileLayers.Count - LayerDnotDrawIt/*-1 pour eviter les s*/; i++)

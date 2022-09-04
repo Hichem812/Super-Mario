@@ -70,7 +70,7 @@ namespace Super_Mario
                 this.player.Dispose();
                 //this.detailsTable.Dispose();
                 this.tileMap.Dispose();
-                
+                this.backGround.Dispose();
                 foreach (var item in this.Items)
                     item.Dispose();
                 this.Items.Clear();
