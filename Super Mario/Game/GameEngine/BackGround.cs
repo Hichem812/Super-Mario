@@ -128,10 +128,11 @@ namespace Super_Mario
             }
 
             if (disposing)
-            { 
-                //foreach (Sprite item in this.spriteBackGrounds)
-                //    item.Dispose();
-               
+            {
+                this.spriteBackGrounds = null;
+                this.positions = null;
+                this.Mouvment = null;
+                this.Calc = null;                
             }
 
             disposed = true;
