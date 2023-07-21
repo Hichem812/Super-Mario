@@ -6,8 +6,6 @@
   <SourceFiles>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-1.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-10.png</File>
-    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-11.png</File>
-    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-12.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-2.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-3.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-4.png</File>
@@ -25,6 +23,8 @@
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Crouche gm.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Fall gm.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/jump gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Jump On The Wall Gm.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Jump On The Wall Pm.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 1.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 2.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/Mario Crouche pm 3.png</File>
@@ -48,6 +48,7 @@
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Fall.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Fier.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Idel.png</File>
+    <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Jump On The Wall.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Jump.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Run.png</File>
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Entitys/Mario/White Stop Runing.png</File>
@@ -63,6 +64,7 @@
     <File>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Texture/TextureClassic.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

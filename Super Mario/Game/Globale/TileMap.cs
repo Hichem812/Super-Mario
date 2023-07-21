@@ -18,8 +18,9 @@ namespace Super_Mario
         internal List<Enemy> EnemyList;
         internal List<Block> Blocks;
         internal Point PlayerStart;
+        internal List<Rectangle> DeadList;
         internal Rectangle EndRectangle;
-        //private Color BackGroundColor;
+        
         #endregion
 
         #region Constructor
@@ -36,12 +37,17 @@ namespace Super_Mario
                        
             #region Colision Start End
             this.BoundinBoxList = new List<BoundingBox>();
+            this.DeadList = new List<Rectangle>();
             foreach (var o in map.ObjectGroups["Colisions"].Objects)
             {
                 if (o.Name == "")
                 {
                     this.BoundinBoxList.Add(new BoundingBox(
                         new Rectangle((int)o.X, (int)o.Y, (int)o.Width, (int)o.Height)));
+                }
+                else if(o.Name == "Dead")
+                {
+                    this.DeadList.Add(new Rectangle((int)o.X, (int)o.Y, (int)o.Width, (int)o.Height));
                 }
                 else if (o.Name == "Start")
                 {

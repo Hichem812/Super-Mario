@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/Images/Background/BackGroundLevel1-3.png</SourceFile>
-  <SourceTime>2022-08-04T18:04:54+01:00</SourceTime>
+  <SourceTime>2022-10-07T21:54:38+01:00</SourceTime>
   <DestFile>E:/mes document/Visual Studio 2022/Project/Super Mario/Super Mario/Content/bin/DesktopGL/Content/Images/Background/BackGroundLevel1-3.xnb</DestFile>
-  <DestTime>2022-08-08T22:15:01.9883812+01:00</DestTime>
+  <DestTime>2023-07-17T21:27:08.6636946+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

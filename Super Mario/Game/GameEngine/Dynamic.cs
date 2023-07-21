@@ -42,6 +42,10 @@ namespace Super_Mario
                 {
                     float x = (j % Width) * TileWidth;
                     float y = (float)Math.Floor(j / (double)Width) * TileHeigh;
+
+                    if (Tiles[j].Gid == this.itemDictionary["EmptyBlock"])
+                        this.Blocks.Add(new EmptyBlock(this.BoundinBoxList, x, y));
+
                     if (Tiles[j].Gid == this.itemDictionary["Coin"])                    
                         this.items.Add(new Coin((int)x, (int)y));
                     
@@ -72,12 +76,12 @@ namespace Super_Mario
 
                     else if (Tiles[j].Gid == this.itemDictionary["BlockSupriseFireInvisible"])
                         this.Blocks.Add(new BlockSupriseFireInvisible(new ItemChampignon(0, 0), new ItemFireFlower(0, 0), items, this.BoundinBoxList, x, y));
-
                 }
             }
         }
         private void InitialazeItemDictionary()
         {
+            this.itemDictionary.Add("EmptyBlock", 10);
             this.itemDictionary.Add("Coin", 18);
             this.itemDictionary.Add("BlockBrick", 1);
             this.itemDictionary.Add("BlockSurpriseCoin", 8);

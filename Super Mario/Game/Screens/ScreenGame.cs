@@ -25,6 +25,7 @@ namespace Super_Mario
         List<Enemy> EnemyList;
         List<Bullet> bullets;
         List<Block> Blocks;
+        List<Rectangle> DeadList;
         Rectangle EndRectangle;
 
         #endregion
@@ -43,6 +44,7 @@ namespace Super_Mario
             this.EnemyList = tileMap.EnemyList;            
 
             this.bullets = new List<Bullet>();
+            this.DeadList = tileMap.DeadList;
             this.EndRectangle = tileMap.EndRectangle;
             this.player = new Player(this.tileMap.PlayerStart, bullets, BoundinBoxList);
             this.EnemyList = this.tileMap.EnemyList;
@@ -67,8 +69,7 @@ namespace Super_Mario
 
             if (disposing)
             {
-                this.player.Dispose();
-                //this.detailsTable.Dispose();
+                this.player.Dispose();                
                 this.tileMap.Dispose();
                 this.backGround.Dispose();
                 foreach (var item in this.Items)
@@ -131,6 +132,10 @@ namespace Super_Mario
                 enemy.Update(gametime);
                 if (enemy.IsDestroyed)this.EnemyList.Remove(enemy);
             }
+
+            foreach (Rectangle rec in this.DeadList)            
+                if (this.player.Hitbox.Top >= rec.Y)
+                    this.player.Kill(gametime);        
 
             if (this.player.Hitbox.Intersects(EndRectangle))            
                 Game1.game.gameManager.YouWon();

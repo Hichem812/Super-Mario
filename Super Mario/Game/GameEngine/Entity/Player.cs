@@ -16,20 +16,21 @@ namespace Super_Mario
         private delegate void RunPlayer(GameTime gameTime,ref Vector2 Velocity, List<BoundingBox> BoundingBoxList);
         private delegate void CrouchPlayer(GameTime gameTime, ref Vector2 Velocity);
         private delegate void Update_TimeBetoineHurt(GameTime gameTime);
+        private delegate void Update_JumpingOnTheWall_OnOff(GameTime gameTime ,ref Vector2 Velocity);
 
         #region Fields
-        private bool disposed;
+        private bool disposed, JumpOnTheEnemy;
         private RunPlayer Run;
         private CrouchPlayer Crouch;
         private Update_TimeBetoineHurt updateTimeBetoineHurt;
+        private Update_JumpingOnTheWall_OnOff Update_JumpingOnTheWall;
         private float Gravity, Speed;       
         private Dictionary<PowerStateType, Dictionary<EntityState, Sprite>> animationsShift;
         private Dictionary<TransformationPower, AnimationTransformation> TransformationAnimation;
         internal PowerStateType powerStateType;
         private Color color;
-        internal bool isFalling, isJumping ,RunToRight,IsGameOver;
-        private bool JumpOnTheEnemy;
-        internal short /*health,*/RunStopAnim,Time_Betoine_hurt,RunCrouchSpeed,Coin, Score;
+        internal bool isFalling, isJumping,RunToRight,IsGameOver;
+        internal short RunStopAnim,Time_Betoine_hurt,RunCrouchSpeed,Coin, Score;
         readonly short SpeedRun, SpeedWalk, Time_Max_Betoine_hurt, JumpingSpeed,GravityMin,GravityMax;
         private List<Bullet> bullets;
         private List<BoundingBox> BoundinBoxList;
@@ -45,6 +46,7 @@ namespace Super_Mario
             this.Life = 3;
             this.updateTimeBetoineHurt = NotUpdateTimeBetoineHurt;
             this.updateEntity = _Update;
+            this.Update_JumpingOnTheWall = Update_JumpingOnTheWall_Off;
             this.powerStateType = PowerStateType.Small;
             this.JumpingSpeed = -850;
             this.SpeedRun = 400;
@@ -66,6 +68,7 @@ namespace Super_Mario
             this.Speed = this.SpeedWalk;
             this.bullets = bullets;
             this.isJumping = false;
+            //this.isJumpingOnTheWall = false;
             this.JumpOnTheEnemy = false;
             this.State = EntityState.Idel;
             AddAnimations();
@@ -127,13 +130,8 @@ namespace Super_Mario
                 //this.health--;
                 // coment
                 if (this.powerStateType == PowerStateType.Small)
-                {
-                    this.powerStateType = PowerStateType.Lous;
-                    base.Destroy();
-                    this.CurentAnimation = this.animationsShift[powerStateType][this.State];
-                    this.CurentAnimation.Update(gameTime);
-                    //this.health = 0;
-                }
+                   Kill(gameTime);
+                
                 else if (this.powerStateType == PowerStateType.Big)
                     this.powerStateType = PowerStateType.Small;
                 else this.powerStateType = PowerStateType.Big;
@@ -142,12 +140,20 @@ namespace Super_Mario
             }
 
         }
+        internal void Kill(GameTime gameTime)
+        {
+            this.powerStateType = PowerStateType.Lous;
+            base.Destroy();
+            this.CurentAnimation = this.animationsShift[powerStateType][this.State];
+            this.CurentAnimation.Update(gameTime);
+            //this.health = 0;
+        }
         //internal void NotHurt()
         //{
         //    this.color = Color.White;
         //    this.Time_Betoine_hurt = this.Time_Max_Betoine_hurt;
         //}
-        
+
         internal void Transformation(PowerStateType NewState)
         {            
             TransformationPower Transformation;
@@ -191,14 +197,7 @@ namespace Super_Mario
             Dictionary<EntityState, Sprite> Animations = new Dictionary<EntityState, Sprite>();
 
             Animations.Add(EntityState.Lous, Loss);
-            //Animations.Add(EntityState.Idel, PlayerLous);
-            //Animations.Add(EntityState.Walk, PlayerLous);
-            //Animations.Add(EntityState.Jumping, PlayerLous);
-            //Animations.Add(EntityState.Falling, PlayerLous);
-            //Animations.Add(EntityState.Run, PlayerLous);
-            //Animations.Add(EntityState.StopRun, PlayerLous);
-            //Animations.Add(EntityState.Throw, PlayerLous);
-            //Animations.Add(EntityState.Crouch, PlayerLous);
+            
             return Animations;
         }
         Dictionary<EntityState, Sprite> AddAnimationsSmall(string strPath)
@@ -210,6 +209,7 @@ namespace Super_Mario
             Texture2D PlayerFall = Game1.game.Content.Load<Texture2D>(strPath + "Mario Fall pm");
             Texture2D PlayerRun = Game1.game.Content.Load<Texture2D>(strPath + "Mario Run pm");
             Texture2D PlayerStopRun = Game1.game.Content.Load<Texture2D>(strPath + "Mario Stop Runing pm");
+            Texture2D Player_JumpOnTheWall = Game1.game.Content.Load<Texture2D>(strPath + "Jump On The Wall Pm");
             Texture2D[] PlayerCrouch =
             {
               Game1.game.Content.Load<Texture2D>(strPath + "Mario Crouche pm 1"),
@@ -227,6 +227,7 @@ namespace Super_Mario
             Animations.Add(EntityState.Run, new Animation(PlayerRun, 9, false, 40));
             Animations.Add(EntityState.StopRun, new Animation(PlayerStopRun, 1, false, 100));
             Animations.Add(EntityState.Crouch, new AnimationCrouching(PlayerCrouch, 45));
+            Animations.Add(EntityState.JumpOnTheWall, new Animation_JumpOnTheWall(Player_JumpOnTheWall));
 
             return Animations;
         }
@@ -238,6 +239,7 @@ namespace Super_Mario
             Texture2D PlayerFall = Game1.game.Content.Load<Texture2D>(strPath + "Fall gm");
             Texture2D PlayerRun = Game1.game.Content.Load<Texture2D>(strPath + "Run Gm");
             Texture2D PlayerStopRun = Game1.game.Content.Load<Texture2D>(strPath + "Stop Runing gm");
+            Texture2D Player_JumpOnTheWall = Game1.game.Content.Load<Texture2D>(strPath + "Jump On The Wall Gm");
             Texture2D[] PlayerCrouch =
            {              
               Game1.game.Content.Load<Texture2D>(strPath + "Mario Crouche pm 1"),
@@ -253,6 +255,7 @@ namespace Super_Mario
             Animations.Add(EntityState.Run, new Animation(PlayerRun, 8, false, 40));
             Animations.Add(EntityState.StopRun, new Animation(PlayerStopRun, 1, false, 100));
             Animations.Add(EntityState.Crouch, new AnimationCrouching(PlayerCrouch, 75));
+            Animations.Add(EntityState.JumpOnTheWall, new Animation_JumpOnTheWall(Player_JumpOnTheWall));
             return Animations;
         }
         Dictionary<EntityState, Sprite> AddAnimationsWhite(string strPath)
@@ -264,6 +267,7 @@ namespace Super_Mario
             Texture2D PlayerRun = Game1.game.Content.Load<Texture2D>(strPath + "White Run");
             Texture2D PlayerStopRun = Game1.game.Content.Load<Texture2D>(strPath + "White Stop Runing");
             Texture2D PlayerFier = Game1.game.Content.Load<Texture2D>(strPath + "White Fier");
+            Texture2D Player_JumpOnTheWall = Game1.game.Content.Load<Texture2D>(strPath + "White Jump On The Wall");
             Texture2D[] PlayerCrouch =
             {
              Game1.game.Content.Load<Texture2D>(strPath + "White Crouching 1"),
@@ -282,6 +286,7 @@ namespace Super_Mario
             Animations.Add(EntityState.StopRun, new Animation(PlayerStopRun, 1, false, 100));
             Animations.Add(EntityState.Throw, new Animation(PlayerFier, 6, true, 80));
             Animations.Add(EntityState.Crouch, new AnimationCrouching(PlayerCrouch, 45));
+            Animations.Add(EntityState.JumpOnTheWall, new Animation_JumpOnTheWall(Player_JumpOnTheWall));
             return Animations;
         }
         Dictionary<TransformationPower, AnimationTransformation> AddAnimationsTransformation(string strPath)
@@ -301,7 +306,7 @@ namespace Super_Mario
             List.Add(TransformationPower.BigToWhite, animationBigToWhite);
             return List;
         }
-        Rectangle IsExpectedHitbox(Vector2 Velocity)
+        Rectangle ExpectedHitbox(Vector2 Velocity)
         {
             return new Rectangle(
                 this.Hitbox.X + ((int)Velocity.X),
@@ -312,7 +317,8 @@ namespace Super_Mario
         {
             foreach (BoundingBox Box in BoundingBoxList)
             {
-                if (Box.IsTouchingLeft(this.IsExpectedHitbox(Velocity)))
+                if (Box.IsTouchingLeft(this.ExpectedHitbox(Velocity)))//---arreter ici retourner la postion de boundingbox
+                                                                      // stoped here i wile to add the return value of the boundingbox position
                 {
                     Velocity.X = 0;
                     this.Position = Box.IsAttachedToTheRight(this.Position, this.Hitbox);
@@ -325,7 +331,7 @@ namespace Super_Mario
         {
             foreach (BoundingBox Box in BoundingBoxList)
             {
-                if (Box.IsTouchingRight(this.IsExpectedHitbox(Velocity)))
+                if (Box.IsTouchingRight(this.ExpectedHitbox(Velocity)))
                 {
                     //Stop = true;
                     Velocity.X = 0;
@@ -337,11 +343,11 @@ namespace Super_Mario
         }
         private void Mouve(GameTime gameTime, ref Vector2 Velocity, List<BoundingBox> BoundingBoxList)
         {
+
             this.ToRight = null;
             if (Input.IskeyDown(Settings.KeyRight))
-            {
-                
-                //this.walkSpeed = SpeedWalk;
+            {   
+
                 Velocity.X = this.Speed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
                 if (!CheckColisionFromTheRight(ref Velocity, BoundingBoxList))
@@ -350,12 +356,16 @@ namespace Super_Mario
                     this.State = EntityState.Walk;
                     this.Effects = SpriteEffects.None;
                 }
-
+                else
+                    if (this.isFalling || this.isJumping)
+                {
+                    this.Update_JumpingOnTheWall = Update_JumpingOnTheWall_On;
+                    Initialaize_JupingWall_ToTheRight();// recuperer la position du hitbox pour rectifier la position de player et coler les deux
+                }    
             }
-            else if (Input.IskeyDown(Settings.KeyLeft)) //arreter ici sur le run crouche walck speed
+            else if (Input.IskeyDown(Settings.KeyLeft))
             {
                 
-                //this.walkSpeed = SpeedWalk;
                 Velocity.X = -(this.Speed * (float)gameTime.ElapsedGameTime.TotalSeconds);
 
                 if (!CheckColisionFromTheLeft(ref Velocity, BoundingBoxList))
@@ -363,6 +373,12 @@ namespace Super_Mario
                     this.ToRight = false;
                     this.State = EntityState.Walk;
                     this.Effects = SpriteEffects.FlipHorizontally;
+                }
+                else
+                    if (this.isFalling || this.isJumping)
+                {
+                    this.Update_JumpingOnTheWall = Update_JumpingOnTheWall_On;
+                    Initialaize_JupingWall_ToTheLeft();
                 }
             }
         }
@@ -464,10 +480,16 @@ namespace Super_Mario
                 this.Crouch = this.CrouchFull;
             }
         }
-
+        //void JumpingOnTheWall()
+        //{
+        //    if (this.isJumpingOnTheWall)
+        //    {
+        //        this.State = EntityState.JumpOnTheWall;
+        //    }
+        //}
         void Falling(GameTime gameTime, ref Vector2 Velocity, List<BoundingBox> BoundingBoxList)
         {
-            if (!isJumping) isFalling = true;
+            if (!isJumping /*&& !isJumpingOnTheWall*/) isFalling = true;
 
             if (this.isFalling)
             {
@@ -475,7 +497,7 @@ namespace Super_Mario
                 //Velocity.Y += this.JumpSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
                 foreach (BoundingBox box in BoundingBoxList)
                 {
-                    if (box.IsTouchingTop(this.IsExpectedHitbox(Velocity)))
+                    if (box.IsTouchingTop(this.ExpectedHitbox(Velocity)))
                     {
                         Velocity.Y = 0;
                         this.Position = box.IsAttachedToTheBottom(this.Position, this.Hitbox);
@@ -507,7 +529,7 @@ namespace Super_Mario
                 Velocity.Y += this.JumpSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
                 foreach (BoundingBox box in boindingBoxList)
                 {
-                    if (box.IsTouchingBottom(this.IsExpectedHitbox(Velocity),powerStateType))
+                    if (box.IsTouchingBottom(this.ExpectedHitbox(Velocity),powerStateType))
                     {
                         this.Position = box.IsAttachedToTheTop(this.Position, this.Hitbox);
                         this.isJumping = false;
@@ -554,6 +576,14 @@ namespace Super_Mario
                 this.State = EntityState.Throw;
                 this.updateEntity = UpdateThrowFire;
             }
+        }
+        void Initialaize_JupingWall_ToTheRight()
+        {
+
+        }
+        void Initialaize_JupingWall_ToTheLeft()
+        {
+
         }
         #endregion
 
@@ -625,12 +655,7 @@ namespace Super_Mario
             Vector2 Velocity = Vector2.Zero;
             this.State = EntityState.Idel;
 
-            Mouve(gameTime, ref Velocity, this.BoundinBoxList);
-            Run(gameTime, ref Velocity, this.BoundinBoxList);
-            Falling(gameTime, ref Velocity, this.BoundinBoxList);
-            Jump(gameTime, ref Velocity, this.BoundinBoxList);
-            Throw();
-            Crouch(gameTime, ref Velocity);
+            this.Update_JumpingOnTheWall(gameTime,ref Velocity);
 
             this.Position += Velocity;
            
@@ -640,6 +665,23 @@ namespace Super_Mario
 
             this.CurentAnimation.Update(gameTime);
         }
+        private void Update_JumpingOnTheWall_Off(GameTime gameTime, ref Vector2 Velocity)
+        {
+            Mouve(gameTime, ref Velocity, this.BoundinBoxList);
+            Run(gameTime, ref Velocity, this.BoundinBoxList);
+            Falling(gameTime, ref Velocity, this.BoundinBoxList);
+            Jump(gameTime, ref Velocity, this.BoundinBoxList);
+            Throw();
+            Crouch(gameTime, ref Velocity);
+
+        }
+        private void Update_JumpingOnTheWall_On(GameTime gameTime, ref Vector2 Velocity)
+        {
+            // JumpingOnTheWall(); ---supprimer la variable et la method
+            
+                    this.State = EntityState.JumpOnTheWall;
+               
+        }
         public override void Draw(SpriteBatch SpriteBatch, GameTime gameTime)
         {
             this.CurentAnimation.Draw(SpriteBatch, this.Position, this.color, this.Effects,0.13f);
@@ -648,4 +690,3 @@ namespace Super_Mario
 
     }
 }
-

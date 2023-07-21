@@ -9,6 +9,12 @@ using TiledSharp;
 using Apos.Gui;
 using FontStashSharp;
 
+
+///--- remarques ----
+///- ajouter les stages
+///- ajouter le saut sur les mures
+
+
 namespace Super_Mario
 {
     public class Game1 : Game

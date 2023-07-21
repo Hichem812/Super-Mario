@@ -11,10 +11,10 @@ namespace Super_Mario
     {
         #region Fields
         private bool disposed;
-        delegate void SurpriseDrow(SpriteBatch spriteBatch, GameTime gameTime);
-        delegate void SurpriseUpdate(GameTime gameTime);
-        SurpriseDrow surpriseDrow;
-        SurpriseUpdate surpriseUpdate;
+        protected delegate void SurpriseDrow(SpriteBatch spriteBatch, GameTime gameTime);
+        protected delegate void SurpriseUpdate(GameTime gameTime);
+        protected SurpriseDrow surpriseDrow;
+        protected SurpriseUpdate surpriseUpdate;
         List<Item> items;
         protected Item item;
         protected List<BoundingBox> BoundinBoxList;
@@ -45,12 +45,14 @@ namespace Super_Mario
 
             if (disposing)
             {
-                foreach (var item in this.items)
-                    item.Dispose();
-                this.items.Clear();
-                this.items = null;
-
-                this.item.Dispose();
+                if (this.items != null)
+                {
+                    foreach (var item in this.items)
+                        item.Dispose();
+                    this.items.Clear();
+                    this.items = null;
+                }
+                
 
                 foreach (var item in this.BoundinBoxList)
                     item.Dispose();

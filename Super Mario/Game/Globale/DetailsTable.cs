@@ -50,6 +50,7 @@ namespace Super_Mario
             Icon.Put(tes).XY = new Vector2(10, 5);
             Label.Put("X " + player.Coin + "  Life: " + player.Life + "  Score: " + player.Score,20,Color.Black)
                 .XY = new Vector2(40, 0);
+            Label.Put(BackGround.str,15,Color.Black).XY= new Vector2(0,30);
             Panel.Push().XY = new Vector2(0, 0);
 
             //Panel.Push().XY = new Vector2(screenWidth / 2 - 100, screenHeight / 2);

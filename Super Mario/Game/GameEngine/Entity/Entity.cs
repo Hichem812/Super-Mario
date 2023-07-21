@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Super_Mario // check this class 
 {
-    public enum EntityState { Idel,Lous, Throw, Walk, Run,StopRun, Jumping, Falling, Crouch }
+    public enum EntityState { Idel,Lous, Throw, Walk, Run,StopRun, Jumping, Falling, Crouch , JumpOnTheWall }
     public class Entity : GameObject ,IDisposable
     {
         #region Fields

@@ -136,7 +136,7 @@ namespace Super_Mario
         {
             this.update(gameTime);            
         }
-        internal void DontUpdate(GameTime gameTime)
+        internal void DoNotUpdate(GameTime gameTime)
         {
             
         }
@@ -175,7 +175,7 @@ namespace Super_Mario
                 
                 if (this.ColumnCurent >= this.frames)
                 {
-                    this.update = DontUpdate;
+                    this.update = DoNotUpdate;
                     this.End = true;
                 }
                
